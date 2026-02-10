@@ -28,6 +28,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Starter Kit API (ES Modules)', status: 'online' });
 });
 
+// route d'authentification
 app.use('/api/auth', authRoutes);
 
 // 404
